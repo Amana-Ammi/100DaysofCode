@@ -9,11 +9,26 @@
 }
 
 .box {
-  background-color: grey;
   float: left;
   padding: 20px 0 0 0;
   margin: 0 1% 1% 0;
   width: 20%;
   height: 150px;
   text-align: center;
+}
+
+#pink {
+  background-color: #ff005d;
+}
+
+#blue {
+  background-color: #0075e6;
+}
+
+#dblue {
+  background-color: #435568;
+}
+
+#dpink {
+  background-color: #5b424b;
 }
