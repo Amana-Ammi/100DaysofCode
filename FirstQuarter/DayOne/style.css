@@ -1,0 +1,19 @@
+/* .navbar {
+
+} */
+
+.colors {
+  overflow: hidden;
+  width: 615px;
+  /* border: 2px; */
+}
+
+.box {
+  background-color: grey;
+  float: left;
+  padding: 20px 0 0 0;
+  margin: 0 1% 1% 0;
+  width: 20%;
+  height: 150px;
+  text-align: center;
+}
