@@ -16,6 +16,18 @@ body {
   background-size: cover;
 }
 
+.content-area {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.content {
+  text-align: center ;
+}
+
 .colors {
   overflow: hidden;
   width: 615px;
