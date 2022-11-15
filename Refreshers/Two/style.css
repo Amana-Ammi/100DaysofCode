@@ -61,3 +61,13 @@ body {
 #dpink {
   background-color: #5b424b;
 }
+
+ul {
+  list-style: none;
+}
+
+li {
+  float: left;
+  padding: 5px;
+
+}
