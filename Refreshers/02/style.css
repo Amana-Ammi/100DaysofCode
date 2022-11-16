@@ -1,0 +1,73 @@
+/* Get rid of default margins on page */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.hero-banner {
+  width: 100%;
+  height: 100vh;
+  background: url(bimg.jpg);
+  background-size: cover;
+}
+
+.content-area {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.content {
+  text-align: center;
+}
+
+.content h1 {
+  font-size: 80px;
+}
+
+.colors {
+  overflow: hidden;
+  width: 615px;
+}
+
+.box {
+  /* float: left; */
+  padding: 20px 0 0 0;
+  margin: 0 1% 1% 0;
+  width: 20%;
+  height: 45px;
+  text-align: center;
+}
+
+#pink {
+  background-color: #ff005d;
+}
+
+#blue {
+  background-color: #0075e6;
+}
+
+#dblue {
+  background-color: #435568;
+}
+
+#dpink {
+  background-color: #5b424b;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  float: left;
+  padding: 5px;
+
+}
