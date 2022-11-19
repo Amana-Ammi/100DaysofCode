@@ -68,6 +68,8 @@ nav {
     width: 100%;
     /* display: none; */
     transform: scale(1,0);
+    transform-origin: top;
+    transition: transform 400ms ease-in-out;
 }
 
 nav ul {
