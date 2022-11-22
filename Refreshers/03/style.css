@@ -104,3 +104,20 @@ nav a:hover {
   /* display: block; */
   transform: scale(1, 1);
 }
+
+@media screen and (min-width:800px) {
+    .nav-toggle-label {
+        display: none;
+    }
+
+    header {
+        display: grid;
+        /* grid-template-columns: repeat(3 1fr); */
+        grid-template-columns: 1fr auto minmax(600px, 1fr) 1fr;
+    }
+
+    .logo {
+        /* start at column two and go over one column. Could also do 2 / 4 to go from column 2 to 4 */
+        grid-column: 2 / span 1;
+    }
+}
