@@ -113,7 +113,7 @@ nav a:hover {
   header {
     display: grid;
     /* grid-template-columns: repeat(3 1fr); */
-    grid-template-columns: 1fr auto minmax(600px, 1fr) 1fr;
+    grid-template-columns: 1fr auto minmax(600px, 3fr) 1fr;
   }
 
   .logo {
@@ -141,5 +141,28 @@ nav a:hover {
   nav li {
     margin-left: 3em;
     margin-bottom: 0;
+  }
+
+  nav a {
+    opacity: 1;
+    position: relative;
+  }
+
+  nav a::before {
+    content: "";
+    display: block;
+    height: 3px;
+    background: black;
+    position: absolute;
+    top: -.75em;
+    left: 0;
+    right: 0;
+    transform: scale(0, 1);
+    transition: transform ease-in-out 250ms;
+  }
+
+  nav a:hover::before {
+    /* content: ''; */
+    transform: scale(1,1);
   }
 }
